@@ -1,0 +1,17 @@
+# Ignore git and local build artifacts
+.git
+.gitignore
+bin/
+dist/
+.coverage
+
+# Include everything else needed for build
+!cmd/**
+!api/**
+!internal/**
+!go.mod
+!go.sum
+!Dockerfile
+!config/**
+!hack/**
+!PROJECT

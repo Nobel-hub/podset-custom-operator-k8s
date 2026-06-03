@@ -1,0 +1,8 @@
+apiVersion: apps.example.com/v1
+kind: PodSet
+metadata:
+  name: nginx-set
+  namespace: default
+spec:
+  replicas: 3
+  image: nginx:latest
